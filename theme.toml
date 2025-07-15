@@ -1,10 +1,9 @@
-name = "Hero"
+name = "randoneering-llc-hugo"
 license = "MIT"
-licenselink = "https://github.com/zerostaticthemes/hugo-hero-theme/blob/master/LICENSE"
-description = "Hero is a multipurpose theme with fullscreen hero images and fullwidth sections. It contains content types for a business or portfolio site."
+licenselink = "https://github.com/randoneering/randoneering-llc-hugo/blob/master/LICENSE"
+description = "Fork of zerostaticthemes' Hero Hugo Theme, modified for Randoneering, LLC."
 
-homepage = "https://github.com/zerostaticthemes/hugo-hero-theme"
-demosite = "https://hugo-hero.netlify.app/"
+homepage = "https://github.com/randoneering/randoneering-llc-hugo"
 
 tags = ["responsive","minimal","clean","company","portfolio","bootstrap","zerostatic"]
 features = ["services","work","fullwidth","hero images"]
@@ -12,3 +11,6 @@ features = ["services","work","fullwidth","hero images"]
 [author]
   name = "Robert Austin"
   homepage = "https://www.zerostatic.io"
+[author]
+  name = "Justin Frye"
+  homepage = "https://randoneering.tech"
