@@ -1,11 +1,4 @@
-# Hugo Hero Theme
-
-Hero is a multi-page business theme with fullscreen hero images and fullwidth sections.
-
-[Live Demo](https://hugo-hero.netlify.app/) |
-[Zerostatic Themes](https://www.zerostatic.io/theme/hugo-hero/)
-
-![Hugo Hero Theme screenshot](https://www.zerostatic.io/theme/hugo-hero/hugo-hero-screenshot.png)
+# Randoneering, LLC Hugo Theme
 
 ## Features
 
@@ -78,18 +71,10 @@ Download or git clone this theme into the sites themes folder `mynewsite/themes`
 
 ```
 cd mynewsite
-git clone https://github.com/zerostaticthemes/hugo-hero-theme.git themes/hugo-hero-theme
+git clone https://github.com/randoneering/randoneering-llc-hugo.git themes/randoneering-llc-hugo
 ```
 
-**4. Copy the example content**
-
-Copy the entire contents of the `mynewsite/themes/hugo-hero-theme/exampleSite/` folder to root folder of your Hugo site, ie `mynewsite/`. To copy the files using terminal, make sure you are still in the projects root, ie the `mynewsite` folder.
-
-```
-cp -a themes/hugo-hero-theme/exampleSite/. .
-```
-
-**65. Run Hugo**
+**5. Run Hugo**
 
 After installing the theme for the first time, generate the Hugo site.
 
@@ -107,12 +92,6 @@ hugo server
 
 Now enter [`localhost:1313`](http://localhost:1313) in the address bar of your browser.
 
-## Deployment
-### Netlify
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zerostaticthemes/hugo-hero-theme)
-
-This theme includes a `netlify.toml` which is [configured to deploy to Netlify](https://discourse.gohugo.io/t/deploy-your-theme-to-netlify/15508) from the `exampleSite` folder. If you have installed this theme into a new Hugo site and the exampleSite folder was copied or removed, you should delete the `netlify.toml` file.
 
 ## Configuring Theme
 
@@ -146,21 +125,11 @@ You can set meta tags on a per template basis using a block. For example, you mi
 ...
 
 {{ define "meta_tags" }}
-    <meta name="description" content="We offer a variety of services in the finance industry" />
+    <meta name="description" content="We offer a variety of services in the technology industry" />
 {{ end }}
 
 {{ define main }}
 ...
-```
-
-### Google Analytics
-
-Add your google analytics ID to the `config.toml`
-
-```toml
-# config.toml
-[params]
-  google_analytics_id="UA-132398315-1"
 ```
 
 ### Menu
@@ -177,18 +146,4 @@ You can edit and add main menu links in the `config.toml` under `[[menu.main]]`
 - Beautiful royalty free Illustrations by Icons8 - https://icons8.com/illustrations/style--pixeltrue
 - Stock images by Unsplash - https://unsplash.com/
 - Feature icons by Noun Project - https://thenounproject.com/
-
-**More Hugo Themes by Zerostatic**
-
-- [Hugo Hero](https://github.com/zerostaticthemes/hugo-hero-theme) - Open-source business theme
-- [Hugo Whisper](https://github.com/zerostaticthemes/hugo-whisper-theme) - Open-source documentation theme
-- [Hugo Serif](https://github.com/zerostaticthemes/hugo-serif-theme) - Open-source business theme
-- [Hugo Winston](https://github.com/zerostaticthemes/hugo-winston-theme) - Open-source blog theme
-- [Hugo Advance](https://www.zerostatic.io/theme/hugo-advance/) - Premium advanced multi page business & marketing theme
-- [Hugo Paradigm](https://www.zerostatic.io/theme/hugo-paradigm/) - Premium landing page + site builder theme
-- [Hugo Lever](https://www.zerostatic.io/theme/hugo-lever/) - Premium personal / bio theme
-- [Hugo Shard](https://www.zerostatic.io/theme/hugo-lever/) - Premium SAAS / landing page theme
-
-**Find hundreds more Hugo themes on Built At Lightspeed**
-
-[<img alt="Built At Lightspeed Hugo themes directory screenshot" width="400px" src="https://www.zerostatic.io/images/builtatlightspeed-hugo-themes.jpg" />](https://builtatlightspeed.com/category/hugo)
+- [Zerostatic Themes](https://www.zerostatic.io/theme/hugo-hero/)
